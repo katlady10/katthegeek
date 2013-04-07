@@ -1,0 +1,19 @@
+@import 'bourbon/bourbon';
+
+@include font-face(Archer, '../fonts/archerbolditalpro', bold, italic);
+@include font-face(Archer, '../fonts/archerboldpro', bold);
+@include font-face(Archer, '../fonts/archerbookitalpro', normal, italic);
+@include font-face(Archer, '../fonts/archerbookpro', normal);
+@include font-face(Archer, '../fonts/archermediumitalpro', 500, italic);
+@include font-face(Archer, '../fonts/archermediumpro', 500);
+@include font-face(Archer, '../fonts/archerlightitalpro', 200, italic);
+@include font-face(Archer, '../fonts/archerlightpro', 200);
+
+@include font-face(Gotham, '../fonts/gothamrndbold', bold);
+@include font-face(Gotham, '../fonts/gothamrndboldital', bold, italic);
+@include font-face(Gotham, '../fonts/gothamrndbook', normal);
+@include font-face(Gotham, '../fonts/gothamrndbookital', normal, italic);
+@include font-face(Gotham, '../fonts/gothamrndmedium', 500);
+@include font-face(Gotham, '../fonts/gothamrndmedital', 500, italic);
+@include font-face(Gotham, '../fonts/gothamrndlight', 200);
+@include font-face(Gotham, '../fonts/gothamrndlightital', 200, italic);
