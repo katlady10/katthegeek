@@ -7,7 +7,6 @@ a.loadmore:hover { color: #ffffff; }
 .widget-area a:hover { color:#333; }
 
 /* TWITTER WIDGET */
-.widget_twitter ul li { margin-bottom:3em; padding-top:.4em; max-width:26em; }
 .widget_twitter ul li:before { content: "\f099"; font-size:22px; top:-0.2em; }
 .widget_twitter ul li span.entry-content { position:relative; display:block; margin-left:2em; padding:1em 1.4em; background:#f7f7f7; }
 .widget_twitter ul li span.entry-content:before { content:''; position:absolute; top:0; right:100%; width: 0; height: 0; border-top: 13px solid #e7e7e7; border-left: 15px solid transparent; }

@@ -272,7 +272,7 @@ textarea {
     width:98%;
     border:solid 1px #ccc;
     background:#f9f9f9;
-    padding:8px 0px;
+    padding:8px 0px !important;
     text-indent: 10px;
     font-size:12px;
     border-radius: 0;

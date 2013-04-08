@@ -15,8 +15,8 @@ iframe { border:0; outline:none; }
 video, audio { width:100%; }
 object, embed, video, iframe { max-width:100%; }
 h1, h2, h3, h4, h5, h6 { line-height:1.5; font-weight:400; }
-a { color: #CE6607; text-decoration:none; }
-a:hover { color:#A35208; }
+a { color: #EC0D8F; text-decoration:none; }
+a:hover { color:#EC0D8F; text-decoration:underline; }
 a:focus { outline: none; }
 h1 a { color:#333; }
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
@@ -43,8 +43,19 @@ h1.site-title, h1.site-title a { font-family:"Archer", Georgia, serif; }
 ::selection { text-shadow:none; color:#333; background:#FF9; }
 ::-moz-selection { text-shadow:none; color:#333; background:#FF9; }
 body { color:#444; }
-
-
+ul.tweets{
+	position: relative;
+	left:-30px;
+	width:110%;
+}
+.timesince{
+	margin-top:10px;
+	display:block;
+	font-size:10px;
+}
+#subscribe-blog p{
+	font-size:11px;
+}
 /* -------------------------------------------- */
 /* LAYOUT */
 .middle { padding-bottom: 4em; overflow: hidden; }
