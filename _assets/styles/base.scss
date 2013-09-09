@@ -60,7 +60,6 @@ body {
 	line-height: 1;
 	color: black;
 	@include breakpoint(mama-bear){ 
-	background: white url('../img/bg_body.jpg') center 450px no-repeat;
 	}
 }
 p,summary{
